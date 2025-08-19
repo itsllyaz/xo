@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 
-	common "github.com/0dayfall/ctw/internal/data"
-	httphandler "github.com/0dayfall/ctw/internal/httphandler"
+	common "github.com/llyas36/xo/internal/data"
+	httphandler "github.com/llyas36/xo/internal/httphandler"
 )
 
 const (

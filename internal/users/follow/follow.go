@@ -3,7 +3,7 @@ package user
 import (
 	"strings"
 
-	common "github.com/0dayfall/ctw/internal/data"
+	common "github.com/llyas36/xo/internal/data"
 )
 
 const (

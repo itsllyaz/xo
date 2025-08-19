@@ -1,4 +1,4 @@
-module github.com/0dayfall/ctw
+module github.com/llyas36/xo
 
 go 1.18
 

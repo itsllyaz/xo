@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/0dayfall/ctw/internal/utils"
+	"github.com/llyas36/xo/internal/utils"
 	"github.com/stretchr/testify/require"
 )
 
