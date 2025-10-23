@@ -4,13 +4,21 @@
 > FYI: X API Price is crazy!
 ---
 
+<<<<<<< HEAD
 XO is an experimental Go library designed to simplify development with the **X API**. Born out of frustration with existing libraries that felt clunky, incomplete, or hard to use, XO aims to be a modular, intuitive toolkit for developers building apps that interact with space, stream, user, and tweet data.
+=======
+XO is an experimental Go library designed to simplify development with the **X API**. It's intuitive toolkit for developers building apps that interact with space, stream, user, and tweet data.
+>>>>>>> cf19edc6c96861cf2f412dccd58aa6c28b2b1af4
 
 Whether you're managing user data, streaming tweets, or exploring space-related endpoints, XO is might be a help.
 
 ---
 
+<<<<<<< HEAD
 ## ✨ Features (WIP)
+=======
+## Features (WIP)
+>>>>>>> cf19edc6c96861cf2f412dccd58aa6c28b2b1af4
 
 - **User Module**: Fetch, update, and manage user profiles
 - **Tweet Module**: Post, delete, and stream tweets
@@ -20,7 +28,11 @@ Whether you're managing user data, streaming tweets, or exploring space-related 
 
 ---
 
+<<<<<<< HEAD
 ## 📦 Installation
+=======
+##  Installation
+>>>>>>> cf19edc6c96861cf2f412dccd58aa6c28b2b1af4
 
 ```bash
 go get github.com/yourusername/xo
@@ -51,7 +63,11 @@ func main() {
 ```
 
 ## Status
+<<<<<<< HEAD
 XO is not production-ready. Expect breaking changes, missing features, and rough edges. But also expect rapid iteration and a welcoming space for contributors.
+=======
+XO is not production-ready. Expect breaking changes, missing features, and rough edges. But welcoming space for contributors.
+>>>>>>> cf19edc6c96861cf2f412dccd58aa6c28b2b1af4
 
 ## Contributing
 I'm eager for your help! Whether it’s fixing bugs, adding features, improving docs, or just sharing ideas—XO thrives on community input.
