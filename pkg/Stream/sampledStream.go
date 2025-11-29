@@ -1,29 +1,22 @@
 package stream
 
 import (
+	"fmt"
 	"net/http"
-	"os"
+
+	"xo/internal"
 )
 
-var (
-	// token to send the required request
-	bearer_token = os.Getenv("BEARER_TOKEN")
-	url          = "https://api.x.com/2/tweets/sample/stream"
-)
 
-func BearerOAUTH(httpRequest *http.Request) {
-	httpRequest.Header.Add("Authorization", "Bearer "+bearer_token)
-	httpRequest.Header.Add("User-Agent", "v2SampledStreamGo")
-
-}
 
 func SampleStream() (*http.Response, error) {
+	url := fmt.Sprintf("%s/tweets/sample/stream", internal.BaseURL)
 	httpRequest, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, err
 	}
 
-	BearerOAUTH(httpRequest)
+	internal.BearerOAUTH(httpRequest)
 
 	client := http.Client{}
 	res, err := client.Do(httpRequest)

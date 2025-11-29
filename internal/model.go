@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"fmt"
+
 	"net/http"
 	"os"
 )
@@ -11,10 +11,6 @@ var (
 	
 )
 
-func CreateUserURL() {
-	
-}
-
 func BearerOAUTH(httpRequest *http.Request) {
 	httpRequest.Header.Add("Authorization", "Bearer "+BearerToken)
 	httpRequest.Header.Add("User-Agent", "v2UserTweetsGo")
@@ -23,6 +19,4 @@ func BearerOAUTH(httpRequest *http.Request) {
 
 
 
-func main(){
-	fmt.Println("boo..boo..boo")
-}
+

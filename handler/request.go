@@ -3,7 +3,7 @@ package httphandler
 import (
 	"log"
 	"net/http"
-	"xo/config"
+	
 )
 
 func CreateGetRequest(url string) (*http.Request, error) {
