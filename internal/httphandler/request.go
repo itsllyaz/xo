@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/llyas36/xo/internal/config"
-	"github.com/llyas36/xo/internal/utils"
+	"github.com/itsllyaz/xo/internal/config"
+	"github.com/itsllyaz/xo/internal/utils"
 )
 
 func CreateGetRequest(url string) *http.Request {

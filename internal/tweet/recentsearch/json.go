@@ -14,6 +14,7 @@ type SearchRecentResponse struct {
 type ReferencedTweets struct {
 	Type string `json:"type"`
 	ID   string `json:"id"`
+
 }
 
 type Data struct {

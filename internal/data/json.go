@@ -26,6 +26,7 @@ type Entities struct {
 	Annotations []Annotations `json:"annotations,omitempty"`
 	Urls        []Urls        `json:"urls,omitempty"`
 	Hashtags    []Hashtags    `json:"hashtags,omitempty"`
+
 }
 
 type Mentions struct {

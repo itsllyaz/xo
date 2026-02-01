@@ -13,4 +13,5 @@ type Data struct {
 }
 type Meta struct {
 	TotalTweetCount int `json:"total_tweet_count"`
+
 }

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/llyas36/xo/internal/utils"
+	"github.com/itsllyaz/xo/internal/utils"
 	"github.com/stretchr/testify/require"
 )
 

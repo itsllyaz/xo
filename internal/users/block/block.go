@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	common "github.com/llyas36/xo/internal/data"
-	"github.com/llyas36/xo/internal/httphandler"
+	common "github.com/itsllyaz/xo/internal/data"
+	"github.com/itsllyaz/xo/internal/httphandler"
 )
 
 const (

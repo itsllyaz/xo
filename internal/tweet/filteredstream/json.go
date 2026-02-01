@@ -20,6 +20,7 @@ type DeleteValue struct {
 
 type AddCommand struct {
 	Add []Add `json:"add"`
+
 }
 
 type Add struct {

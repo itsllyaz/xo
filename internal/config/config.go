@@ -3,6 +3,7 @@ package config
 import "os"
 
 var (
+	// get your token...
 	BearerToken string = os.Getenv("BEARER_TOKEN")
 	UserAgent   string = "CERN-LineMode/2.15 libwww/2.17b3"
 )
