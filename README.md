@@ -2,7 +2,7 @@
 > **Note:** XO is in early development and not production-ready. Contributions, ideas, and feedback are warmly welcomed!
 >
 > FYI: X API Price is crazy!
----
+----
 
 
 XO is an experimental Go library designed to simplify development with the **X API**. Born out of frustration with existing libraries that felt clunky, incomplete, or hard to use, XO aims to be a modular, intuitive toolkit for developers building apps that interact with space, stream, user, and tweet data.
