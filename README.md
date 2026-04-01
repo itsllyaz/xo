@@ -1,5 +1,5 @@
 # XO 
-> **Note:** XO is in early development and not production-ready. Contributions, ideas, and feedback are warmly welcomed!
+> **Note:** XO is in early development and not production-ready. Contributions, ideas, and feedback are warmly welcomed! 
 >
 > FYI: X API Price is crazy!
 ----
